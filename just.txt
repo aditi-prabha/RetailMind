@@ -1,0 +1,85 @@
+Level 1: Absolute Basics
+AI vs ML vs Deep Learning
+Dataset
+Features X
+Target y
+Training
+Prediction
+Model
+
+
+Level 2: ML Types
+Supervised Learning
+Classification
+Regression
+Unsupervised Learning
+Clustering
+Dimensionality Reduction
+
+
+Level 3: Data Understanding
+EDA
+Data types
+Univariate analysis
+Bivariate analysis
+Multivariate analysis
+Correlation
+Distribution
+Outliers
+Level 4: Preprocessing
+Missing values
+Duplicate handling
+Categorical variables
+Label Encoding
+One-Hot Encoding
+Ordinal Encoding
+Scaling
+StandardScaler
+MinMaxScaler
+Level 5: Features
+Feature Engineering
+Feature Selection
+Dimensionality Reduction
+PCA
+Level 6: Model Building
+Train-Test Split
+Linear Regression
+Logistic Regression
+KNN
+Decision Trees
+Random Forest
+SVM
+Naive Bayes
+Boosting
+Level 7: Evaluation
+Confusion Matrix
+Accuracy
+Precision
+Recall
+F1
+ROC-AUC
+MAE
+MSE
+RMSE
+R²
+Level 8: Important ML Problems
+Overfitting
+Underfitting
+Bias
+Variance
+Data Leakage
+Class Imbalance
+Regularization
+Level 9: Improving Models
+Cross Validation
+K-Fold
+Stratified K-Fold
+Hyperparameters
+GridSearchCV
+RandomizedSearchCV
+Level 10: Proper ML Workflow
+Pipeline
+ColumnTransformer
+Model comparison
+Model saving with joblib
+Prediction on new data

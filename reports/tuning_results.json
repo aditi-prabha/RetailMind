@@ -1,0 +1,31 @@
+[
+    {
+        "Model":"SVM",
+        "Best CV Recall":0.8254180602,
+        "Best Parameters":{
+            "classifier__C":1,
+            "classifier__gamma":0.01,
+            "classifier__kernel":"rbf"
+        }
+    },
+    {
+        "Model":"Random Forest",
+        "Best CV Recall":0.8066889632,
+        "Best Parameters":{
+            "classifier__max_depth":5,
+            "classifier__max_features":"sqrt",
+            "classifier__min_samples_leaf":1,
+            "classifier__min_samples_split":2,
+            "classifier__n_estimators":300
+        }
+    },
+    {
+        "Model":"Decision Tree",
+        "Best CV Recall":0.781270903,
+        "Best Parameters":{
+            "classifier__max_depth":5,
+            "classifier__min_samples_leaf":10,
+            "classifier__min_samples_split":2
+        }
+    }
+]

@@ -127,6 +127,47 @@ SVM performed competitively with a recall of **77.27%** and the highest F1 score
 - `models/random_forest.joblib`
 - `models/svm.joblib`
 
+## Day 3 - Hyperparameter Tuning & Cross-Validation
+
+### Objective
+
+Tune the Day 2 candidate models using GridSearchCV and cross-validation, with **Recall** as the primary metric for churn detection.
+
+### Techniques Used
+
+- GridSearchCV
+- Cross-Validation
+- Hyperparameter Tuning
+- Bias-Variance Analysis
+- Learning Curves
+
+### Cross-Validation Results
+
+| Model         | Best CV Recall |
+| ------------- | -------------: |
+| Decision Tree |         0.7813 |
+| Random Forest |         0.8067 |
+| **SVM**       |     **0.8254** |
+
+### Champion Model
+
+**Support Vector Machine (SVM)** was selected as the Day 3 champion.
+
+- Best CV Recall: **82.54%**
+- Mean Training Recall: **82.89%**
+- Train-Validation Gap: **0.35%**
+- SVM achieved the highest CV Recall and the smallest train-validation gap.
+
+### Learning Curve
+
+A learning curve was used to compare training and validation recall and analyze model generalization.
+
+### Saved Model
+
+The tuned Day 3 champion was saved as:
+
+`models/churn_v3.joblib`
+
 ## Evaluation Metrics
 
 The project uses multiple evaluation metrics to assess model performance.
