@@ -168,6 +168,24 @@ The tuned Day 3 champion was saved as:
 
 `models/churn_v3.joblib`
 
+## Day 4 - Feature Engineering & Ensemble Models
+
+### Models Evaluated
+
+- Day 3 Tuned SVM
+- Random Forest
+- XGBoost
+
+Feature engineering and feature selection were applied before evaluating the Day 4 ensemble models.
+
+### Outcome
+
+The Day 4 models were compared against the tuned SVM from Day 3 using churn Recall as the primary metric.
+
+**SVM remained the champion model**, as the Day 4 ensemble models did not provide sufficient improvement over the existing tuned model.
+
+Therefore, the existing SVM was retained as the production churn model.
+
 ## Evaluation Metrics
 
 The project uses multiple evaluation metrics to assess model performance.
