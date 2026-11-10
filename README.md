@@ -202,6 +202,37 @@ Recall is particularly important because failing to identify a customer who is l
 
 ---
 
+## Day 5 - Artificial Neural Network (ANN)
+
+### Objective
+
+Build a Keras-based Artificial Neural Network for churn prediction and compare it with the existing classical machine learning champion.
+
+### Techniques Used
+
+- TensorFlow / Keras
+- Artificial Neural Network
+- Dense Layers
+- ReLU and Sigmoid Activations
+- Input Normalization
+- Early Stopping
+- Validation Monitoring
+
+### Model Comparison
+
+| Model                        |     Recall | Precision |   F1 Score | Accuracy | ROC-AUC |
+| ---------------------------- | ---------: | --------: | ---------: | -------: | ------: |
+| Day 5 Keras ANN              |     57.49% |    61.96% |     59.64% |   79.35% |  83.78% |
+| **Day 4 Classical Champion** | **62.57%** |    60.31% | **61.42%** |   79.13% |  83.38% |
+
+### Conclusion
+
+The ANN achieved slightly higher Accuracy, Precision, and ROC-AUC. However, the Day 4 classical champion achieved better **Recall (62.57%)** and **F1 Score (61.42%)**.
+
+Since RetailMind prioritizes identifying as many at-risk churn customers as possible, **Recall remains the primary evaluation metric**.
+
+Therefore, the **Day 4 Classical Champion remains the final churn model**, while the ANN serves as a useful deep-learning benchmark.
+
 ## Project Structure
 
 ```text
