@@ -233,6 +233,41 @@ Since RetailMind prioritizes identifying as many at-risk churn customers as poss
 
 Therefore, the **Day 4 Classical Champion remains the final churn model**, while the ANN serves as a useful deep-learning benchmark.
 
+## Day 6 - CNN Product Image Classification
+
+### Objective
+
+Build a Convolutional Neural Network (CNN) to automatically classify retail product images into catalog categories.
+
+### Workflow
+
+| Step              | Implementation                                              |
+| ----------------- | ----------------------------------------------------------- |
+| CNN Prototype     | Tested the CNN architecture using Fashion-MNIST             |
+| Image Pipeline    | Built image loading, preprocessing, and augmentation        |
+| CNN Architecture  | Convolution → Pooling → Dropout → Dense layers              |
+| Training          | Trained the CNN for product category classification         |
+| Evaluation        | Evaluated predictions using accuracy and a confusion matrix |
+| Model Persistence | Saved the trained catalog image classifier                  |
+
+### CNN Architecture
+
+The CNN uses convolutional layers to learn visual features from product images, pooling layers to reduce feature dimensions, dropout to reduce overfitting, and dense layers for final category classification.
+
+### Evaluation
+
+A confusion matrix was used to identify which product categories were classified correctly and which categories were commonly confused by the model.
+
+**Final Test Accuracy:** `0.971532500395382`
+
+### Outcome
+
+The catalog image classifier becomes the first Computer Vision module in RetailMind AI. It extends the project beyond customer churn prediction by adding automated product image categorization.
+
+### Saved Model
+
+`RetailMind/models/fashion_product_cnn.keras`
+
 ## Project Structure
 
 ```text
